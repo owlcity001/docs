@@ -136,6 +136,14 @@ export const Tags: { [type in TagType]: Tag } = {
 // prettier-ignore
 const Users: User[] = [
   {
+    title: 'Request Finance',
+    description: 'The all-in-one finance solution for Web3 teams - Crypto invoices, billing, payroll & expenses.',
+    preview: require('./showcase/request-finance.png'),
+    website: 'https://www.request.finance/',
+    source: 'https://github.com/RequestNetwork/',
+    tags: ['apps', 'defi', 'favorite'],
+  },
+  {
     title: 'Valora',
     description: 'The crypto wallet with 12% rewards to buy, send, spend, earn, and collect NFTs on the Celo blockchain.',
     preview: require('./showcase/valora.png'),
